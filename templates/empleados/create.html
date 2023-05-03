@@ -15,14 +15,27 @@
 
 <body>
   <header>
-    <!--Banner nav -->
+    <h1>Registro de Empleados</h1>
   </header>
   <main>
-    <h1>Sistemas de Empleados</h1>
+    <div class="mb-3">
+      <label for="TxtNombre" class="form-label">Nombre</label>
+      <input type="text"
+        class="form-control" name="TxtNombre" id="TxtNombre" aria-describedby="helpId" placeholder="Agregar su nombre">
+    </div>
+    <div class="mb-3">
+      <label for="TxtCorreo" class="form-label">Correo Electrónico</label>
+      <input type="email" class="form-control" name="TxtCorreo" id="TxtCorreo" aria-describedby="emailHelpId" placeholder="abc@mail.com">
+    </div>
+    <div class="mb-3">
+      <label for="TxtFoto" class="form-label">Agregar Foto</label>
+      <input type="file" class="form-control" name="TxtFoto" id="TxtFoto">
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
 
   </main>
   <footer>
-    <!-- Pie de página -->
+    <!-- place footer here -->
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
